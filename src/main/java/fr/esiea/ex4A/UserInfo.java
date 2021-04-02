@@ -4,9 +4,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class UserInfo {
 
-public final String userCountry;
+    public final String userCountry;
 
-public UserInfo(@JsonProperty("userCountry") String userCountry) {
-    this.userCountry = userCountry;
-}
+    public UserInfo(@JsonProperty("userCountry") String userCountry) {
+        this.userCountry = userCountry;
+    }
 }
